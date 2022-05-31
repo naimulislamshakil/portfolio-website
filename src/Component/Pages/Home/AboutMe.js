@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import check from "../../../assets/img/check.png";
 
 const AboutMe = () => {
   return (
@@ -22,6 +23,52 @@ const AboutMe = () => {
               I am Naimul Islam.I am a Fullstock Web Application Devoloper using
               JavaScript.The things that i know are mentioned below:
             </p>
+            <div className="ml-16">
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> HTML5
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> CSS3
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> Bootstrap
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> Tailwind
+                css
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> Javascript
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> Typescript
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> Javascript
+                API
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> React
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> React
+                Router
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> React
+                Authentication
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> Node JS
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" /> Express JS
+              </h2>
+              <h2 className="text-lg font-bold text-black flex items-center ">
+                <img className="w-[25px] mr-3" src={check} alt="" />{" "}
+                Mongodb(CRUD)
+              </h2>
+            </div>
           </div>
         </div>
       </div>
