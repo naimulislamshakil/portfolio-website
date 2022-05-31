@@ -4,7 +4,7 @@ import check from "../../../assets/img/check.png";
 
 const AboutMe = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5" id="about">
       <div class="divider"></div>
       <div className="text-center">
         <h2 className="font-bold text-primary text-lg">What I Do</h2>

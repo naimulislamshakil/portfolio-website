@@ -5,15 +5,30 @@ const Header = () => {
   const navBarItem = (
     <>
       <li>
-        <Link to="/" className="text-white font-bold text-lg hover:bg-primary">
+        <Link to="/" className=" font-bold text-lg hover:bg-primary">
           Home
         </Link>
+      </li>
+      <li>
+        <a href="#about" className=" font-bold text-lg hover:bg-primary">
+          About Me
+        </a>
+      </li>
+      <li>
+        <a href="#best" className=" font-bold text-lg hover:bg-primary">
+          Best Website
+        </a>
+      </li>
+      <li>
+        <a href="#contact" className=" font-bold text-lg hover:bg-primary">
+          Contact Us
+        </a>
       </li>
     </>
   );
   return (
     <div>
-      <div class="navbar bg-black">
+      <div class="navbar bg-base-200 mb-2">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const BestWebsite = () => {
   return (
-    <div className="mt-5 py-5">
+    <div className="mt-5 py-5" id="best">
       <div class="divider"></div>
       <div className="text-center">
         <h2 className="font-bold text-accent text-2xl">Best Website</h2>
