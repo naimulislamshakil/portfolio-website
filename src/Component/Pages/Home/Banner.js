@@ -6,13 +6,13 @@ import gh from "../../../assets/img/social/github.png";
 const Banner = () => {
   return (
     <div class="hero min-h-screen bg-base-200">
-      <div class="hero-content flex-col lg:flex-row-reverse mr-10">
+      <div class="hero-content flex-col lg:flex-row-reverse">
         <img
           src="https://api.lorem.space/image/movie?w=260&h=400"
           alt=""
           class="max-w-sm rounded-lg shadow-2xl"
         />
-        <div className="lg:mr-16 ml-10">
+        <div className="ml-5">
           <h1 class="text-5xl font-bold">
             <span className="text-primary">Hello,</span> I Am Naimul Islam
           </h1>
