@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const BestWebsite = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5 py-5">
       <div class="divider"></div>
       <div className="text-center">
         <h2 className="font-bold text-accent text-2xl">Best Website</h2>
@@ -23,7 +23,7 @@ const BestWebsite = () => {
           slidesPerView={1}
         >
           <SwiperSlide>
-            <div class="card card-compact w-[700px] bg-base-100 shadow-xl">
+            <div class="card card-compact w-[700px] bg-base-100 shadow-2xl">
               <figure>
                 <img src={manu} alt="" />
               </figure>
@@ -32,21 +32,21 @@ const BestWebsite = () => {
                   Laptop Parts Manufacturer Website!
                 </h2>
                 <div>
-                  <button class="btn btn-xs mr-2">React</button>
-                  <button class="btn btn-xs mr-2">React Router</button>
-                  <button class="btn btn-xs mr-2">
+                  <button class="btn btn-xs mr-2 mt-2">React</button>
+                  <button class="btn btn-xs mr-2 mt-2">React Router</button>
+                  <button class="btn btn-xs mr-2 mt-2">
                     Firebase Authentication
                   </button>
-                  <button class="btn btn-xs mr-2">Tailwind CSS</button>
-                  <button class="btn btn-xs mr-2">Swiper JS</button>
-                  <button class="btn btn-xs mr-2">Node JS</button>
-                  <button class="btn btn-xs mr-2">Express JS</button>
+                  <button class="btn btn-xs mr-2 mt-2">Tailwind CSS</button>
+                  <button class="btn btn-xs mr-2 mt-2">Swiper JS</button>
+                  <button class="btn btn-xs mr-2 mt-2">Node JS</button>
+                  <button class="btn btn-xs mr-2 mt-2">Express JS</button>
                   <button class="btn btn-xs mr-2 mt-2">MongoDB</button>
                 </div>
                 <a
                   target="_blank"
                   href="https://build-laptop-parts.web.app/"
-                  class="btn btn-primary w-1/4 mx-auto"
+                  class="btn btn-outline btn-success lgw-1/4 w-2/4 mx-auto"
                 >
                   Learn More
                 </a>
