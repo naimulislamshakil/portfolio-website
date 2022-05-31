@@ -12,7 +12,7 @@ const AboutMe = () => {
       </div>
       <div class="divider"></div>
       <div class="hero min-h-screen bg-base-200">
-        <div class="about-me flex-col lg:flex-row">
+        <div class="hero-content flex-col lg:flex-row">
           <img
             src="https://api.lorem.space/image/movie?w=260&h=400"
             alt=""
